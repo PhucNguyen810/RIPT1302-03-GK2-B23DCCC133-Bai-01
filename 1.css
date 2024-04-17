@@ -1,0 +1,27 @@
+body{
+  background:
+    linear-gradient(90deg, #5c429d, #4a9388, #c0c61f);
+  font-family: system-ui;
+}
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #f6ebed;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 0, 64);
+  }
+  
